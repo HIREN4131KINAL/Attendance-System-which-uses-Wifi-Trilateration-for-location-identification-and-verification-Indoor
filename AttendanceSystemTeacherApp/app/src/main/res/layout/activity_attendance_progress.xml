@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/AttendanceProgressLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/attendanceProgressTextView"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="40sp"
+        android:text="Attendance is in progress..."
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/busyIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:layout_gravity="center_horizontal"
+        android:indeterminateOnly="true"
+        android:keepScreenOn="true" />
+
+    <Button
+        android:id="@+id/cancelAttendanceButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:onClick="onClickCancelAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="50sp"
+        android:text="Cancel Attendance" />
+
+    <Button
+        android:id="@+id/finishAttendanceButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="10sp"
+        android:onClick="onClickFinishAttendance"
+        android:text="Finish Attendance" />
+
+</LinearLayout>

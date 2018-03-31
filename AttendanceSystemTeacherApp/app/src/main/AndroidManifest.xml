@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.creatershub.attendancesystemteacherapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Attendance (Teacher Version)"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/CustomActionBarTheme">
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Dashboard"
+            android:label="Dashboard" />
+        <activity
+            android:name=".SubjectSelection"
+            android:label="Subject Selection" />
+        <activity
+            android:name=".AttendanceProgress"
+            android:label="Attendance Progess" />
+        <activity
+            android:name=".MarkAttendance"
+            android:label="Mark Attendance" />
+        <activity
+            android:name=".ViewAttendance"
+            android:label="View Attendance" />
+        <activity android:name=".Profile"
+            android:label="Profile"/>
+    </application>
+
+</manifest>

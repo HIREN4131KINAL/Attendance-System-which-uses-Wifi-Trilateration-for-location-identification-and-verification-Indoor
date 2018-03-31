@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/SubjectSelectionLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/selectSubjectTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:text="Select a subject..." />
+
+
+    <Spinner
+        android:id="@+id/subjectListSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="5sp" />
+
+    <TextView
+        android:id="@+id/subjectCodeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:text="Subject Code - " />
+
+    <TextView
+        android:id="@+id/subjectNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:text="Subject Name - " />
+
+    <TextView
+        android:id="@+id/subjectBranchTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:text="Branch - " />
+
+    <TextView
+        android:id="@+id/subjectSemTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:text="Semester - " />
+
+    <TextView
+        android:id="@+id/subjectRoomTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:text="Classroom - " />
+
+    <Button
+        android:id="@+id/subjectSelectedButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="30sp"
+        android:onClick="onClickSubjectSelected"
+        android:text="Done" />
+
+
+</LinearLayout>
