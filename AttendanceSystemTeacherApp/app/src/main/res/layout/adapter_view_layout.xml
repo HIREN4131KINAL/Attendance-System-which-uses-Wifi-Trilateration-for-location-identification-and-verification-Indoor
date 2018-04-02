@@ -12,6 +12,7 @@
         android:layout_height="30sp"
         android:layout_weight="20"
         android:text="TextView1"
+	android:textColor="@android:color/black"
         android:textAlignment="textStart" />
 
     <TextView
@@ -20,6 +21,7 @@
         android:layout_height="30sp"
         android:layout_weight="70"
         android:textAlignment="textStart"
+	android:textColor="@android:color/black"
         android:text="TextView2" />
 
     <TextView
@@ -28,5 +30,6 @@
         android:layout_height="30sp"
         android:layout_weight="10"
         android:textAlignment="textEnd"
+	android:textColor="@android:color/black"
         android:text="TextView3" />
 </LinearLayout>

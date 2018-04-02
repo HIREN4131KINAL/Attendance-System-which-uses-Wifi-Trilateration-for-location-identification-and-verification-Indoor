@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/DashboardLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/dashboardWelcomeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Welcome"
+        android:textColor="#150000 "
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/startAttendanceButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:onClick="onClickMarkAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="25sp"
+        android:text="Mark Attendance" />
+
+    <Button
+        android:id="@+id/viewAttendanceButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="10sp"
+        android:onClick="onClickViewAttendance"
+        android:text="View Attendance Statistics" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/profileButton"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="10sp"
+        android:onClick="onClickProfile"
+        android:text="Profile" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="61sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="10sp"
+        android:onClick="onClickLogout"
+        android:text="Logout" />
+</LinearLayout>

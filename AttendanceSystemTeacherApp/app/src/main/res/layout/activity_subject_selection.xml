@@ -13,6 +13,7 @@
         android:layout_marginTop="20sp"
         android:layout_marginLeft="15sp"
         android:layout_marginRight="15sp"
+	android:textColor="@android:color/black"
         android:text="Select a subject..." />
 
 
@@ -31,6 +32,7 @@
         android:layout_marginTop="20sp"
         android:layout_marginLeft="15sp"
         android:layout_marginRight="15sp"
+	android:textColor="@android:color/black"
         android:text="Subject Code - " />
 
     <TextView
@@ -40,6 +42,7 @@
         android:layout_marginTop="20sp"
         android:layout_marginLeft="15sp"
         android:layout_marginRight="15sp"
+	android:textColor="@android:color/black"
         android:text="Subject Name - " />
 
     <TextView
@@ -49,6 +52,7 @@
         android:layout_marginTop="20sp"
         android:layout_marginLeft="15sp"
         android:layout_marginRight="15sp"
+	android:textColor="@android:color/black"
         android:text="Branch - " />
 
     <TextView
@@ -58,6 +62,7 @@
         android:layout_marginTop="20sp"
         android:layout_marginLeft="15sp"
         android:layout_marginRight="15sp"
+	android:textColor="@android:color/black"
         android:text="Semester - " />
 
     <TextView
@@ -67,6 +72,7 @@
         android:layout_marginTop="20sp"
         android:layout_marginLeft="15sp"
         android:layout_marginRight="15sp"
+	android:textColor="@android:color/black"
         android:text="Classroom - " />
 
     <Button

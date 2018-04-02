@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AttendanceMarkerLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/locationVerificationTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="25sp"
+        android:text="Location Verification"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/expectedLocationTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:textColor="@android:color/black"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="10sp"
+        android:text="Expected location - " />
+
+    <TextView
+        android:id="@+id/locationVerificationStatusTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="10sp"
+        android:text="Status - Not Verified" />
+
+    <Button
+        android:id="@+id/verifyLocationButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:onClick="onClickVerifyLocation"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="15sp"
+        android:text="Verify My Location" />
+
+
+    <TextView
+        android:id="@+id/identityVerificationTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="35sp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="Identity Verification" />
+
+    <TextView
+        android:id="@+id/identityVerificationStatusTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="10sp"
+        android:text="Status - Not Verified" />
+
+    <Button
+        android:id="@+id/verifyIdentityButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:onClick="onClickVerifyIdentity"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="15sp"
+        android:text="Verify My Identity" />
+
+    <Button
+        android:id="@+id/submitButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:onClick="onClickSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="50sp"
+        android:text="Submit" />
+
+</LinearLayout>
